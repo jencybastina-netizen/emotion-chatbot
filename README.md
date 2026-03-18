@@ -1,19 +1,28 @@
 # emotion-chatbot
  Emotion-aware chatbot using ML
-# Emotion-Aware Conversational Agent
+# Emotion-Aware Conversational Agent 🤖
 
-This project detects user emotions (joy, sadness, anger) using Machine Learning.
+This project detects user emotions from text and responds like a human.
 
-## Features
+## 🔍 Features
+- Emotion detection (joy, sadness, anger)
 - Text preprocessing
 - TF-IDF vectorization
 - Naive Bayes model
-- Chatbot with human-like responses
+- Interactive chatbot
 
-## Tech Used
+## ⚙️ Technologies Used
 - Python
 - Scikit-learn
 - Google Colab
 
-## Output
-User input → Emotion detection → Smart reply
+## 🚀 How It Works
+User Input → Clean Text → TF-IDF → Model → Emotion → Response
+
+## 📌 Example
+You: I feel sad  
+Bot: I'm here for you.
+
+## 📂 Dataset
+Dataset taken from Kaggle (Emotion dataset)
+
